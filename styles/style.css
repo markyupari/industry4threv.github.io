@@ -1,0 +1,25 @@
+html{
+    background-color: whitesmoke;   /*Color de fondo de la página web*/
+}
+h1,h2 {
+    text-align: center; /*centrar texto*/
+}
+p,
+li{
+    font-size: 16px; /*tamaño de letra a 16 pixeles"*/
+    line-height: 2; /*alto del renglón del texto*/
+    letter-spacing: 1px; /*espaciado entre letras 1 pixel - facilita la lectura*/
+}
+img{
+    display:block;  /*Le da a la imagen su propia línea*/
+    /*Los margenes izquierdo y derecho en automático centraran la imagen horizontalmente*/
+    margin-left: auto;  
+    margin-right: auto;
+}
+body{
+    width: 800px;   /*Define ancho del bloque body*/
+    background-color: aqua; /*Color de fondo del bloque body*/
+    margin: 0 auto;  /*Alienamiento del bloque 0 para top y bottom auto para left right*/
+    padding: 0 20px 20px 20px;  /*Padding es el margen interior del bloque up=0 right=20px bottom=20px left=20px*/
+    border: 5px black solid;    /*Agrega borde al */
+}
